@@ -24,7 +24,7 @@
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 0 20px rgba(255, 144, 0, 0.5);
-            max-width: 600px;
+            max-width: 800px;
             width: 100%;
         }
 
@@ -80,36 +80,37 @@
 <body>
 
     <div class="container-box text-center">
-        <img src="assets/image/logo_long.png" alt="logo" class="logo-img m-20 ">
-        <h3 class="mt-3 display-4">This is a restricted page</h3>
+        <img src="assets/image/logo_long.png" alt="logo" class="logo-img m-20">
+        <h3 class="mt-3 display-4 font-weight-bold">Yolo...</h3>
         <p>
-            This website contains age-restricted materials including nudity and explicit depictions of sexual activity.
-            By entering, you affirm that you are at least 18 years of age or the age of majority in the jurisdiction you
-            are accessing the website from and you consent to viewing sexually explicit content.
+            Hi, I'm Fern! A passionate web developer, designer, and problem solver. I love creating sleek, modern,
+            and efficient web experiences. Explore my projects, skills, and get in touch to collaborate!
         </p>
 
-        <!-- Buttons Side by Side -->
         <div class="d-flex justify-content-between mt-3">
-            <button class="btn btn-yellow btn-lg" onclick="enterSite()">I am 18 or older - Enter</button>
-            <button class="btn btn-gray btn-lg" onclick="exitSite()">I am under 18 - Exit</button>
+            <button class="btn btn-yellow btn-lg" onclick="viewProjects()">View My Work</button>
+            <a href="mailto:fernandojr03.pineda@gmail.com" class="btn btn-gray btn-lg">Get in Touch</a>
         </div>
 
         <p class="small-text mt-4">
-            Our <a href="#" class="text-warning">parental controls</a> page explains how to block access to this site.
+            Check out my <a href="https://github.com/FPinedaJr/" class="text-warning">GitHub</a> for open-source
+            projects.
         </p>
         <p class="small-text mt-3">
-            &copy; fernhub.miceff.com, 2025.
-            <a href="#" class="text-warning">FPPinedaJr <i class="fa-brands fa-github"></i></a>
+            &copy; 2025 Fern Hub. Built with ❤️ by
+            <a href="https://www.facebook.com/FPPinedaJr/" class="text-warning">FPPinedaJr <i
+                    class="fa-brands fa-github"></i></a>
         </p>
     </div>
 
+
     <script>
-        function enterSite() {
+        function viewProjects() {
             window.location.href = "home.html";
         }
 
-        function exitSite() {
-            window.location.href = "#";
+        function contactMe() {
+            window.location.href = 'mailto:fernandojr03.pineda@gmail.com';
         }
     </script>
 
